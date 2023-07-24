@@ -34,6 +34,7 @@ class NoteItem extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18,
                   color: Colors.black.withOpacity(0.7),
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
