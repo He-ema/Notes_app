@@ -10,6 +10,7 @@ class NoteItem extends StatelessWidget {
 
   @override
   final NoteModel note;
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
@@ -36,7 +37,7 @@ class NoteItem extends StatelessWidget {
             ListTile(
               title: Text(
                 note.title,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.black,
                   fontSize: 26,
                 ),
